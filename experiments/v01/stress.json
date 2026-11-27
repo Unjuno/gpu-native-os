@@ -1,0 +1,53 @@
+{
+  "waves": 16,
+  "lanes": 32,
+  "roots": 1024,
+  "seed": 7,
+  "issue": "random",
+  "ram_words": 65536,
+  "jobs_completed_per_wave": [
+    119,
+    132,
+    130,
+    124,
+    132,
+    129,
+    127,
+    136,
+    137,
+    130,
+    136,
+    123,
+    115,
+    128,
+    124,
+    126
+  ],
+  "guest_instructions": 283235,
+  "vector_lane_ops": 130048,
+  "queue_head": 2048,
+  "queue_tail": 2048,
+  "live_jobs": 0,
+  "results_first_8": [
+    34320,
+    234001,
+    630290,
+    1223187,
+    2012692,
+    2998805,
+    4181526,
+    5560855
+  ],
+  "checks": {
+    "boot_published": true,
+    "queue_drained": true,
+    "no_live_jobs": true,
+    "all_waves_halted": true,
+    "root_exactly_once": true,
+    "child_exactly_once": true,
+    "results_match": true,
+    "per_wave_total_matches": true,
+    "all_slots_published": true
+  },
+  "status": "PASS"
+}

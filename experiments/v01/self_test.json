@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "passed": 480,
+  "total": 480,
+  "timeout_detected": true,
+  "bounds_fault_detected": true,
+  "total_guest_instructions": 869664,
+  "failures": []
+}

@@ -1,0 +1,41 @@
+{
+  "waves": 4,
+  "lanes": 8,
+  "roots": 16,
+  "seed": 0,
+  "issue": "round",
+  "ram_words": 65536,
+  "jobs_completed_per_wave": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "guest_instructions": 1953,
+  "vector_lane_ops": 496,
+  "queue_head": 32,
+  "queue_tail": 32,
+  "live_jobs": 0,
+  "results_first_8": [
+    612,
+    3877,
+    10214,
+    19623,
+    32104,
+    47657,
+    66282,
+    87979
+  ],
+  "checks": {
+    "boot_published": true,
+    "queue_drained": true,
+    "no_live_jobs": true,
+    "all_waves_halted": true,
+    "root_exactly_once": true,
+    "child_exactly_once": true,
+    "results_match": true,
+    "per_wave_total_matches": true,
+    "all_slots_published": true
+  },
+  "status": "PASS"
+}
